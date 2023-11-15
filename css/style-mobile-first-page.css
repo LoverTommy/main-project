@@ -1,0 +1,191 @@
+@media screen and (max-width:1800px) {
+    .center {
+        max-width: 90%;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .second-container {
+        width: 90%;
+        margin: 0 auto;
+        grid-template-columns: 45% 50%;
+        column-gap: 5%;
+    }
+}
+
+@media screen and (max-width:1600px) {
+    .second-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .second-container .video {
+        order: 1;
+    }
+
+    .second-container .right-item .video .play-item {
+        top: 40%;
+        left: 45%;
+    }
+
+    .second-container .left-items {
+        order: 2;
+        display: flex;
+        text-align: center;
+        gap: 100px;
+        padding-top: 50px;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    header .menu {
+        display: none;
+    }
+
+    .first-container p {
+        font-size: 36px;
+    }
+
+    .first-ellips {
+        width: 380px;
+        height: 380px;
+        margin-left: -300px;
+        filter: blur(280px);
+        margin-top: -300px;
+    }
+
+    .second-ellips {
+        width: 380px;
+        height: 380px;
+        filter: blur(280px);
+        margin-left: 1100px;
+        margin-top: 400px;
+    }
+
+    .second-container .right-item .video .play-item {
+        top: 40%;
+        left: 42%;
+    }
+
+    .second-container .left-items p {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .second-ellips {
+        margin-left: 900px;
+        margin-top: 300px;
+    }
+
+    .second-container .right-item .video {
+        height: 500px;
+    }
+
+    .second-container .right-item .video .play-item {
+        top: 40%;
+        left: 40%;
+    }
+}
+
+@media screen and (max-width:700px) {
+    header .right-items a {
+        padding: 12px 30px;
+        font-weight: 500;
+        font-size: 11px;
+    }
+
+    header .logo h4 {
+        font-size: 27px;
+    }
+
+    header .logo {
+        align-self: flex-start;
+    }
+
+    header .logo span {
+        font-size: 16px;
+    }
+
+    header .right-items img {
+        padding-left: 12px;
+        width: 47px;
+        height: 48px;
+        vertical-align: 10px;
+    }
+
+    header {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    .first-container p {
+        font-size: 20px;
+        text-align: center;
+        padding-top: 22px;
+        background: linear-gradient(96deg, #FFF 7.93%, #903DEE 73.91%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-transform: lowercase;
+    }
+
+    .first-ellips {
+        width: 242px;
+        height: 242px;
+        margin-left: -216px;
+        margin-top: -37px;
+        fill: #FF57DA;
+        filter: blur(153.44203186035156px);
+    }
+
+    .second-ellips {
+        width: 300px;
+        height: 300px;
+        margin-left: 550px;
+        margin-top: 200px;
+        fill: #FF57DA;
+        filter: blur(180px);
+    }
+
+    .second-container .right-item .video {
+        height: 300px;
+        width: 100%;
+    }
+
+    .second-container {
+        margin-right: 0;
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .second-container .right-item .video .play-item img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .second-container .right-item .video .play-item {
+        top: 40%;
+        left: 42%;
+    }
+
+    .second-container .left-items {
+        flex-direction: column;
+        gap: 0;
+        padding-top: 65px;
+    }
+
+    .second-container .left-items p {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .second-ellips {
+        width: 200px;
+        height: 200px;
+        fill: #FF57DA;
+        filter: blur(150px);
+        margin-left: 300px;
+    }
+}
